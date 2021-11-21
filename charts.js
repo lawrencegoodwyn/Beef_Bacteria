@@ -182,7 +182,7 @@ function buildCharts(sample) {
     title: "Bacteria Cultures Per Sample",
     xaxis: {title: "OTU ID"},
     automargin: true,
-    hovermode: closest
+    hovermode: "closest"
     };
 
     // 3. Use Plotly to plot the data with the layout.
